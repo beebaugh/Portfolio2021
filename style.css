@@ -1,3 +1,6 @@
+/* Razzle Dazzle Styzzle*/
+
+
 header {
 	font-family: 'Great Vibes', cursive;
 	font-size: 45px;
@@ -39,6 +42,18 @@ main {
 	background: #ECD5BB;
 	text-align: center;
 }
+
+p, li {
+	font-family: 'Gotu', sans-serif;
+	line-height: 1.5em;
+	margin-bottom: 0;
+   }
+
+ol, ul, li {
+	text-align: left;
+	font-size: large;
+}
+
 h1 {
     margin:0;
     padding:0
@@ -52,6 +67,8 @@ hr {
 	width:60%;
     margin:0 auto;
 }
+
+/*Image styling with shadow*/
 
 img {
   border-radius: 10%;
@@ -72,3 +89,17 @@ section {
 	font-family:  Helvetica, Arial, sans-serif;
 }
 
+
+
+a {
+	font-weight: 850;
+	text-decoration: none;	
+}
+
+/* Pseudo Classes */
+
+a:link { color: darkblue; }
+a:visited { color: darkblue; }
+a:hover { color: black; }
+a:active { color: darkgrey; }
+a:hover {text-decoration: underline; }
